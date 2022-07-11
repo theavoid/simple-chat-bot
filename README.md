@@ -8,3 +8,6 @@ NodeJS ile basit bir sohbet botu.
 ### Hata Mesajları
 ![image info](https://i.hizliresim.com/kelv5o9.jpg)
 
+## Installation
+``` npm i ```
+``` node index.js ```
