@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    font-family: Open Sans;
+}
+
+body {
+    background-color: #eee;
+}
+
+.chatpanel {
+    margin-top: 2.5%;
+    background-color: #fff;
+    border: 0.1px solid #ced4da;
+    border-radius: 3px;
+    padding: 25px;
+}
+
+.glink {
+    color: #6f7279;
+}
+
+.typing {
+    margin-top: 10px;
+    display: none;
+    color: #2d2d2d;
+    margin-bottom: 0px;
+}
+
+.message {
+    padding: 12px;
+    color: #606060;
+    background-color: #eee;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.bot {
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+    max-width: 50%;
+}
+.author {
+    margin-bottom: 10px;
+    float: right;
+    max-width: 50%;
+}
+
+.message-bar {
+    margin-top: 20px;
+}
+.message-bar .message_input {
+    padding: 10px;
+    border: none;
+    background-color: #eee;
+    min-width: 100%;
+    outline: none;
+    transition: 0.4s all;
+
+}
+
+.message-bar .message_input:focus {
+    background-color: #eeeeee;
+}
+
+.message-bar .message_input:disabled {
+    background-color: #cbcbcb;
+}
+
+.github {
+    padding: 20px;
+    margin-top: 2%;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+}
+
+.github .actions button {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    color: #818181
+}
