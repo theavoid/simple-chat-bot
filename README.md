@@ -1,2 +1,2 @@
-# simple-chat-bot
-Simple chatbot with nodejs
+# NodeJS Basit Sohbet Botu
+NodeJS ile basit bir sohbet botu. 
