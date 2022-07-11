@@ -13,7 +13,6 @@ app.get('/', (req, res) => {
 
 app.post('/api/Chatbot',async (req, res) => {
     var message = req.body.message;
-    console.log(message)
 
     if (!message) {
         return res.json({ status: 'fail', message: 'Geçerli mesaj göndermelisin. Adın ne?' })
